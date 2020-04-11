@@ -1,0 +1,7 @@
+C:\Users\psuar\source\repos\ExceptionDrill\ExceptionDrill\bin\Debug\ExceptionDrill.exe.config
+C:\Users\psuar\source\repos\ExceptionDrill\ExceptionDrill\bin\Debug\ExceptionDrill.exe
+C:\Users\psuar\source\repos\ExceptionDrill\ExceptionDrill\bin\Debug\ExceptionDrill.pdb
+C:\Users\psuar\source\repos\ExceptionDrill\ExceptionDrill\obj\Debug\ExceptionDrill.csprojAssemblyReference.cache
+C:\Users\psuar\source\repos\ExceptionDrill\ExceptionDrill\obj\Debug\ExceptionDrill.csproj.CoreCompileInputs.cache
+C:\Users\psuar\source\repos\ExceptionDrill\ExceptionDrill\obj\Debug\ExceptionDrill.exe
+C:\Users\psuar\source\repos\ExceptionDrill\ExceptionDrill\obj\Debug\ExceptionDrill.pdb
