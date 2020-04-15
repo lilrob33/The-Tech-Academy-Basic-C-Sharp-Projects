@@ -10,30 +10,28 @@ namespace MethodDrill3
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Please enter two numbers for the math operation, one at a time." +
-                " No need to enter anything for the second number.");
-            try
-            {
+            Console.WriteLine("Please enter two numbers for the math operation, one at a time.");
+            
                 int a = Convert.ToInt32(Console.ReadLine());
-                int b = Convert.ToInt32(Console.ReadLine());
-                int total;
 
-                MathMeth n = new MathMeth();
-                total = n.Sum(a, b);
-                Console.WriteLine("The sum of " + a + " , " + 25 + " and " + b + " is " + total);
-                
-                total = n.Sum(a);
-                Console.WriteLine("The sum of " + a + " , " + 25 + " and " + "optional number 4 is " + total);
+                int total;
+            Console.WriteLine("Enter a second number (optional):  or press ENTER" +
+                " to skip and see your total.\n");
+                var validInput = int.TryParse(Console.ReadLine(), out int b);
+           
+            if (validInput)
+            {
+                total = MathMeth.Sum(a + b);
+                Console.WriteLine("The sum of " + a + " , " + 25 + " and the optional second" +
+                " number " + b + " is " + total);
                 Console.ReadLine();
             }
-            catch (Exception ex)
+            else
             {
-                Console.WriteLine("Please enter a number", ex);
-            }
-            finally
-            {
+                total = MathMeth.Sum(a);
+                Console.WriteLine("The sum of " + a + " and " + 25 + " is " + total);
                 Console.ReadLine();
-            }
+            } 
         }
     }
 }

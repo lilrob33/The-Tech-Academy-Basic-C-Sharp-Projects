@@ -8,9 +8,9 @@ namespace MethodDrill3
 {
     class MathMeth
     {
-        public int Sum(int num1, int optionalNum = 4)
+        public static int Sum(int a, int b = 0)
         {
-            var Total = num1 + 25 + optionalNum;
+            int Total = a + 25 + b;
             return Total;
         }
     }
