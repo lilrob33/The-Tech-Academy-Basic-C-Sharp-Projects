@@ -1,0 +1,7 @@
+C:\Users\psuar\source\repos\MethodDrill2\MethodDrill2\bin\Debug\MethodDrill2.exe.config
+C:\Users\psuar\source\repos\MethodDrill2\MethodDrill2\bin\Debug\MethodDrill2.exe
+C:\Users\psuar\source\repos\MethodDrill2\MethodDrill2\bin\Debug\MethodDrill2.pdb
+C:\Users\psuar\source\repos\MethodDrill2\MethodDrill2\obj\Debug\MethodDrill2.csprojAssemblyReference.cache
+C:\Users\psuar\source\repos\MethodDrill2\MethodDrill2\obj\Debug\MethodDrill2.csproj.CoreCompileInputs.cache
+C:\Users\psuar\source\repos\MethodDrill2\MethodDrill2\obj\Debug\MethodDrill2.exe
+C:\Users\psuar\source\repos\MethodDrill2\MethodDrill2\obj\Debug\MethodDrill2.pdb
