@@ -12,7 +12,8 @@ namespace MethodDrill
         // will take one integer parameter in and return an integer.The methods 
         // should do some math operation on the received parameter.Put this 
         // class in a separate.cs file in the application.
-        // public int Sum(int num1, int num2)
+        
+        public int Sum(int num1, int num2)
         {
             var Total = num1 + num2;
             return Total;
