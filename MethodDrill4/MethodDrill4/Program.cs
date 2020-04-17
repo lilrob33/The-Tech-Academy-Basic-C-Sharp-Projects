@@ -11,18 +11,21 @@ namespace MethodDrill4
         static void Main(string[] args)
         {
             MathMeth n = new MathMeth();
-            Console.WriteLine("Pick a number");
+
+            Console.WriteLine("Enter a number.");
             int num1 = Convert.ToInt32(Console.ReadLine());
-            int a;
-            int b;
-            n.Division(num1);
-            n.Division(out a, out b);
-            MathMeth.Print();
-
-            Console.WriteLine("Your first number is " + a);
-            Console.WriteLine("Your second number is " + b);
-            Console.WriteLine("The number in the static class is " + MathMeth.Print());
-
+            Console.WriteLine("Enter another number or hit enter to use the default number of 10.");
+            string num2 = Console.ReadLine();
+            Console.WriteLine("We will now add the two numbers together.");
+            if (num2 == "")
+            {
+                Console.WriteLine("The answer is: " + n.Sum(num1));
+            }
+            else
+            {
+                int num3 = Convert.ToInt32(num2);
+                Console.WriteLine("The answer is: " + n.Sum(num1, num3));
+            }
             Console.ReadLine();
         }
     }
