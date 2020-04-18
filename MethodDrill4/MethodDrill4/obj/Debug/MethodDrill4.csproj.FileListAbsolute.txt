@@ -1,7 +1,0 @@
-C:\Users\psuar\source\repos\MethodDrill4\MethodDrill4\bin\Debug\MethodDrill4.exe.config
-C:\Users\psuar\source\repos\MethodDrill4\MethodDrill4\bin\Debug\MethodDrill4.exe
-C:\Users\psuar\source\repos\MethodDrill4\MethodDrill4\bin\Debug\MethodDrill4.pdb
-C:\Users\psuar\source\repos\MethodDrill4\MethodDrill4\obj\Debug\MethodDrill4.csprojAssemblyReference.cache
-C:\Users\psuar\source\repos\MethodDrill4\MethodDrill4\obj\Debug\MethodDrill4.csproj.CoreCompileInputs.cache
-C:\Users\psuar\source\repos\MethodDrill4\MethodDrill4\obj\Debug\MethodDrill4.exe
-C:\Users\psuar\source\repos\MethodDrill4\MethodDrill4\obj\Debug\MethodDrill4.pdb
