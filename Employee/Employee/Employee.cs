@@ -6,8 +6,14 @@ using System.Threading.Tasks;
 
 namespace Employee
 {
-    public class Employee : Person
+    public class Employee : Person, IQuittable
     {
+        public void Quit()
+        {
+            IQuittable quittable = new Employee();
+            Console.WriteLine("You can take this job and shove it..... I QUIT!");
+            Console.ReadLine();
+        }
         public int ID { get; set; }
     }
 }

@@ -15,7 +15,7 @@ namespace Employee
             employee.lastName = "Student";
 
             employee.sayName();
-
+            employee.Quit();
         }
     }
 }
