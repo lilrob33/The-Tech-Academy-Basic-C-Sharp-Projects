@@ -23,7 +23,7 @@ namespace Employee
             employee.sayName();
             employee1.sayName();
             Console.WriteLine("Does the Employee ID numbers Match?");
-            //employee.Quit();
+            employee.Quit();
             Console.WriteLine(employee == employee1);
             Console.ReadLine();
         }
