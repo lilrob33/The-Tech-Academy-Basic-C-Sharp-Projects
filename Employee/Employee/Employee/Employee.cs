@@ -8,6 +8,11 @@ namespace Employee
 {
     public class Employee : Person, IQuittable
     {
+        public class Worker<T>
+        {
+            public List<T> things { get; set; }
+        }
+
         public static bool operator ==(Employee employee, Employee employee1)
         {
             if (employee.ID == employee1.ID)
