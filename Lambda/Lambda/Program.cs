@@ -34,18 +34,35 @@ namespace Lambda
             { firstName = "Laureen", lastName = "Soto", ID = 10 });
 
 
-            foreach (var Employee in e) 
+            List<Employee> Templist = new List<Employee>();
+            foreach (var employee in e)
             {
-                List<Employee> joeList = new List<Employee>();
-                if (Employee.firstName == "Joe")
+
+                if (employee.firstName == "Joe")
                 {
-                    joeList.Add(Employee);
+                    Templist.Add(employee);
                 }
             }
 
-            List<Employee> joes = e.Where(x => x.firstName == "Joe").ToList();
+            foreach (Employee employee in Templist)
+            {
+                Console.WriteLine(employee.firstName + " " + employee.lastName + " " + employee.ID);
+            }
 
-            List<Employee> ids = e.Where(x => x.ID > 5).ToList();
+            List<Employee> joe = e.Where(x => x.firstName == "Joe").ToList();
+
+            foreach (Employee employee in joe)
+            {
+                Console.WriteLine(employee.firstName + " " + employee.lastName + " " + employee.ID);
+            }
+
+            List<Employee> overFive = e.Where(x => x.ID > 5).ToList();
+
+            foreach (Employee employee in overFive)
+            {
+                Console.WriteLine(employee.firstName + " " + employee.lastName + " " + employee.ID);
+            }
+            Console.ReadLine();
         }
     }
 }
