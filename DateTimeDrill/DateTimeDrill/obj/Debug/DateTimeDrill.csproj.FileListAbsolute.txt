@@ -1,0 +1,6 @@
+C:\Users\psuar\source\repos\DateTimeDrill\DateTimeDrill\bin\Debug\DateTimeDrill.exe.config
+C:\Users\psuar\source\repos\DateTimeDrill\DateTimeDrill\bin\Debug\DateTimeDrill.exe
+C:\Users\psuar\source\repos\DateTimeDrill\DateTimeDrill\bin\Debug\DateTimeDrill.pdb
+C:\Users\psuar\source\repos\DateTimeDrill\DateTimeDrill\obj\Debug\DateTimeDrill.csproj.CoreCompileInputs.cache
+C:\Users\psuar\source\repos\DateTimeDrill\DateTimeDrill\obj\Debug\DateTimeDrill.exe
+C:\Users\psuar\source\repos\DateTimeDrill\DateTimeDrill\obj\Debug\DateTimeDrill.pdb
