@@ -1,0 +1,6 @@
+C:\Users\psuar\source\repos\Age\Age\bin\Debug\Age.exe.config
+C:\Users\psuar\source\repos\Age\Age\bin\Debug\Age.exe
+C:\Users\psuar\source\repos\Age\Age\bin\Debug\Age.pdb
+C:\Users\psuar\source\repos\Age\Age\obj\Debug\Age.csproj.CoreCompileInputs.cache
+C:\Users\psuar\source\repos\Age\Age\obj\Debug\Age.exe
+C:\Users\psuar\source\repos\Age\Age\obj\Debug\Age.pdb
